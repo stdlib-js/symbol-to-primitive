@@ -36,7 +36,8 @@
   },
   "dependencies": {
     "@stdlib/assert-has-to-primitive-symbol-support": "github:stdlib-js/assert-has-to-primitive-symbol-support#main",
-    "@stdlib/symbol-ctor": "^0.2.2"
+    "@stdlib/symbol-ctor": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-symbol": "^0.2.2",
