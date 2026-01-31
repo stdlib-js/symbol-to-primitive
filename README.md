@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-to-primitive/tags). For example,
+
+```javascript
 import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@v0.1.1-deno/mod.js';
 ```
 
@@ -101,7 +106,7 @@ var s = typeof ToPrimitiveSymbol;
 ```javascript
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@v0.1.1-deno/mod.js';
+import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@deno/mod.js';
 
 function CustomObject( value ) {
     if ( !(this instanceof CustomObject) ) {
