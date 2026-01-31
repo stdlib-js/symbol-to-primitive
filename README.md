@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+ToPrimitiveSymbol = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-to-primitive/tags). For example,
+
+```javascript
 ToPrimitiveSymbol = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@v0.1.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var ToPrimitiveSymbol = require( 'path/to/vendor/umd/symbol-to-primitive/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -128,7 +133,7 @@ var s = typeof ToPrimitiveSymbol;
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
