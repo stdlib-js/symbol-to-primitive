@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@deno/mod.js';
+import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@v0.1.1-deno/mod.js';
 ```
 
 #### ToPrimitiveSymbol
@@ -101,7 +101,7 @@ var s = typeof ToPrimitiveSymbol;
 ```javascript
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@deno/mod.js';
+import ToPrimitiveSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-to-primitive@v0.1.1-deno/mod.js';
 
 function CustomObject( value ) {
     if ( !(this instanceof CustomObject) ) {
