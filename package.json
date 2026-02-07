@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-to-primitive",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Symbol which specifies a method for converting an object to a primitive value.",
   "license": "Apache-2.0",
   "author": {
@@ -36,12 +36,12 @@
   },
   "dependencies": {
     "@stdlib/assert-has-to-primitive-symbol-support": "^0.1.0",
-    "@stdlib/symbol-ctor": "^0.2.2"
+    "@stdlib/symbol-ctor": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-is-symbol": "^0.2.2",
-    "@stdlib/number-ctor": "^0.2.2",
-    "@stdlib/utils-define-property": "^0.2.4",
+    "@stdlib/assert-is-symbol": "^0.2.3",
+    "@stdlib/number-ctor": "^0.2.3",
+    "@stdlib/utils-define-property": "^0.2.5",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
