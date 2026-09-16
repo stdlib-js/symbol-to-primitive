@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-09-16)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`515b943`](https://github.com/stdlib-js/stdlib/commit/515b943bcd4db563f4c2bf9488f6472387864e90) - **test:** import `Symbol` constructor [(#15241)](https://github.com/stdlib-js/stdlib/pull/15241) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.2">
 
 ## 0.1.2 (2026-02-07)
