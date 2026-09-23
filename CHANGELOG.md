@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-09-23)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ea32e3a`](https://github.com/stdlib-js/stdlib/commit/ea32e3ad1a4813efffa85a3d2f4d6ab266aac4bd) - **chore:** fix JavaScript lint errors [(#15293)](https://github.com/stdlib-js/stdlib/pull/15293) _(by Abhist, Athan Reines)_
 -   [`515b943`](https://github.com/stdlib-js/stdlib/commit/515b943bcd4db563f4c2bf9488f6472387864e90) - **test:** import `Symbol` constructor [(#15241)](https://github.com/stdlib-js/stdlib/pull/15241) _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Abhist
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
